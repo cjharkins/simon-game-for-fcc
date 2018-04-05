@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game for FCC</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="game-wrapper">
+  <div id="button-wrapper">
+    <div id="red" class="box red" data-val="1"></div>
+    <div class="box green" id="green" data-val="2"></div>
+    <div class="box yellow" id="yellow" data-val="3"></div>
+    <div class="box blue" id="blue" data-val="4"></div>
+    <div id="center-panel" class="box">
+      <div id="hud" class="hud-panel"><span id="rounds" class="rounds-display"></span></div>
+      <div id="power" class="power-switch">On/Off
+        <input type="checkbox" id="switch" />
+        <label for="switch" data-val="9">Toggle</label>
+      </div>
+      <div class="start-text">Standard</div>
+      <div class="button start-button" id="start" data-val="0"></div>
+      <div class="strict-text">Strict</div>
+      <div class="button strict-button" data-val="7"></div>
+    </div>
+  </div>
+</div>
+<div id="modal" class="modal-style">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="message-body" class="message">You Win!</p>
+  </div>
+
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
